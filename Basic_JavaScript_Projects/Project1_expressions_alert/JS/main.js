@@ -4,8 +4,11 @@ var A = "Tis be a string<br>"           //This is a variable with a string
 document.write(A);                      //This prints out the variable defined as 'A'
 var B = "Hulk" + "Smash!<br>"           //This is a concatenated variable with the values 'Hulk' + Smash!
 var B = B.fontcolor("yellow");          //Sets the font color of variable B to yellow
-document.write(B);                      //Prints out Variable 'B'
-
+document.write(B);          ;            //Prints out Variable 'B'
+var C = "Avengers "
+var D = "Assemble!<br>";
+var E = C + D;
+document.write(E)
 document.write("Hulk said,\"Hulk Smash!\"<br>");                     //Prints out a statement containing paranthesis
 document.write("Empty your mind be formless<br>"                     //First line of concatenated quote
                 + "Put water into a cup it becomes the cup<br>"      //second line of concatenated quote
