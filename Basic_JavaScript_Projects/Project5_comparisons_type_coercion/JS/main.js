@@ -35,3 +35,4 @@ function not_function ()    {
 function f_but_not_f () {
     document.getElementById("No not").innerHTML = !(20<10); //Displays true for the value 20 is not less than 10
 }
+document.write(typeof "street racing")
