@@ -39,10 +39,10 @@ let x = "<br> let it be";
 document.write(x);
 
 let car = {             //object created with methods and properties
-    make: "Dodge",
-    model: "Viper",
-    year: "2021",
-    color: "red",
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
     description: function () {
         return  "This car is a " + this.make + this.model + this.year + this.color; 
     }    
@@ -56,5 +56,5 @@ let car = {             //object created with methods and properties
     }
     for (let n= 0; n<10; n++) {
         if (n === 3 ) {continue; }
-        text += "the number is " + 1 +"<br>";
+        text += "the number is " + n +"<br>";
     }
